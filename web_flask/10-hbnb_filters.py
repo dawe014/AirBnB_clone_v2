@@ -8,7 +8,6 @@ from models import *
 from models import storage
 app = Flask(__name__)
 
-
 @app.route('/hbnb_filters', strict_slashes=False)
 def filters():
     """display a HTML page like 6-index.html from static"""
